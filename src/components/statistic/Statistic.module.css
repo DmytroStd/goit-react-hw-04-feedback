@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    width: 200px;
+    border-style: double;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border-color: rgb(4, 34, 12);
+    ;
+}

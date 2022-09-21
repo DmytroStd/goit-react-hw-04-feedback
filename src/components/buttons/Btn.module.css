@@ -1,0 +1,53 @@
+.box {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn {
+    border-radius: 5px;
+    border: inherit;
+    padding: 3px;
+    margin-bottom: 10px;
+    width: 70px;
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+.positive {
+    composes: btn;
+    background-color: rgb(11, 201, 36);
+}
+
+.neutral {
+    composes: btn;
+    background-color: rgb(11, 18, 201);
+}
+
+.negative {
+    composes: btn;
+    background-color: rgb(201, 103, 11);
+}
+
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+    transform: scale(1.1);
+}
+
+
+
+.secondary__title {
+    margin-bottom: 15px;
+    font-size: 18px;
+
+}
